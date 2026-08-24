@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gowtham K | Developer Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Google Fonts for Clean Typography -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <div class="logo">GK.</div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero">
+    <h1>GOWTHAM K</h1>
+    <p class="tagline">Full Stack Developer & Web Engineer</p>
+    <div class="hero-contact">
+      <span>📍 Dindigul, Tamil Nadu</span>[span_0](start_span)[span_0](end_span)
+      <span>📧 gowthamgowtham87730@gmail.com</span>[span_1](start_span)[span_1](end_span)
+      <span>📱 +91 6374365400</span>[span_2](start_span)[span_2](end_span)
+    </div>
+    <div class="social-links">
+      <a href="https://linkedin.com/in/gowtham-k-5218942a4" target="_blank" class="btn-link">LinkedIn</a>[span_3](start_span)[span_3](end_span)
+      <a href="https://github.com/gowtham23cet0299" target="_blank" class="btn-link secondary">GitHub</a>[span_4](start_span)[span_4](end_span)
+    </div>
+  </header>
+
+  <main class="content-wrapper">
+
+    <!-- About Section -->
+    <section id="about" class="card">
+      <h2>About Me</h2>
+      <p>Motivated CSE student with hands-on experience in full-stack web development and Python programming[span_5](start_span)[span_5](end_span). Skilled in modern web frameworks like React, Node.js, and database systems like MySQL[span_6](start_span)[span_6](end_span). Passionate about building performant applications and solving real-world problems[span_7](start_span)[span_7](end_span).</p>
+    </section>
+
+    <!-- Tech Stack -->
+    <section id="skills" class="card">
+      <h2>Technical Stack</h2>
+      <div class="skills-grid">
+        <span class="skill-pill">Python</span>[span_8](start_span)[span_8](end_span)
+        <span class="skill-pill">JavaScript (ES6+)</span>
+        <span class="skill-pill">React.js</span>[span_9](start_span)[span_9](end_span)
+        <span class="skill-pill">Node.js</span>[span_10](start_span)[span_10](end_span)
+        <span class="skill-pill">FastAPI / Flask</span>[span_11](start_span)[span_11](end_span)
+        <span class="skill-pill">HTML5 & CSS3</span>
+        <span class="skill-pill">MySQL</span>[span_12](start_span)[span_12](end_span)
+        <span class="skill-pill">Git / GitHub</span>[span_13](start_span)[span_13](end_span)
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="card">
+      <h2>Featured Projects</h2>
+      
+      <div class="project-box">
+        <div class="project-header">
+          <h3>GameNova - Web Gaming Hub</h3>
+          <button class="toggle-btn" data-target="project-1">Details</button>
+        </div>
+        <p>Interactive web gaming platform with user auth, achievement system, and dynamic leaderboards[span_14](start_span)[span_14](end_span).</p>
+        <div id="project-1" class="project-details">
+          <p>Built responsive game interfaces using modern JS logic and UI components[span_15](start_span)[span_15](end_span). Features dynamic score tracking and customized user profiles[span_16](start_span)[span_16](end_span).</p>
+          <a href="https://gowtham23cet0299.github.io/GameNova/" target="_blank" class="project-link">Live Demo &rarr;</a>[span_17](start_span)[span_17](end_span)
+        </div>
+      </div>
+
+      <div class="project-box">
+        <div class="project-header">
+          <h3>FoodieExpress - Food Delivery Platform</h3>
+          <button class="toggle-btn" data-target="project-2">Details</button>
+        </div>
+        <p>Full-featured web application supporting multi-restaurant browsing, dynamic cart, and payment workflow[span_18](start_span)[span_18](end_span).</p>
+        <div id="project-2" class="project-details">
+          <p>Integrated order tracking simulation, simulated UPI payment pipeline, and dynamic catalog sorting across 50+ cuisines[span_19](start_span)[span_19](end_span).</p>
+          <a href="https://gowtham23cet0299.github.io/Foodie-Express-/" target="_blank" class="project-link">Live Demo &rarr;</a>[span_20](start_span)[span_20](end_span)
+        </div>
+      </div>
+    </section>
+
+    <!-- Quick Interaction -->
+    <section id="contact" class="card">
+      <h2>Get In Touch</h2>
+      <form id="portfolioContactForm">
+        <div class="input-group">
+          <input type="text" id="senderName" placeholder="Your Name" required>
+        </div>
+        <div class="input-group">
+          <input type="email" id="senderEmail" placeholder="Your Email" required>
+        </div>
+        <div class="input-group">
+          <textarea id="senderMessage" rows="4" placeholder="Your Message" required></textarea>
+        </div>
+        <button type="submit" class="submit-btn">Send Message</button>
+      </form>
+      <div id="feedbackMessage" class="feedback-toast"></div>
+    </section>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
